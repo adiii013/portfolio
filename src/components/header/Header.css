@@ -71,6 +71,10 @@ header{
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.me_img{
+    height: 20rem;
+}
+
 .scroll_down{
     position: absolute;
     right: -2.3rem;
@@ -88,7 +92,17 @@ header{
 
 @media screen and (max-width:600px){
     header{
-        height:100wh;
+        height:50rem;
+        
+    }
+    .me{
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+    }
+    .me_img{
+        height: 10rem;
+        width: 10rem;
     }
     .header__socials,.scroll_down{
         display: none;
