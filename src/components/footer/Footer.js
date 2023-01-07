@@ -17,7 +17,7 @@ function footer() {
 
       <div className="footer__socials">
         <a href="https://facebook.com"><FaFacebookF/></a>
-        <a href="https://instagram.com"><FiInstagram/></a>
+        <a href="https://www.instagram.com/_.adiiii013._/" target='_blank'><FiInstagram/></a>
         <a href="https://twitter.com"><IoLogoTwitter/></a>
       </div>
 

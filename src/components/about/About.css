@@ -38,6 +38,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    box-shadow: 10px 0 10px 5px #48abe0;
 }
 
 .about__card:hover{
