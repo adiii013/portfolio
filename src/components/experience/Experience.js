@@ -23,28 +23,42 @@ function experience() {
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>CSS</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Bootstrap</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Visual Studio Code</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>JQuery</h4>
+                 <small className="text-light">Experienced</small>
+                 </div>
+              </article>
+              <article className="experience__details">
+                 <BsPatchCheckFill className="experience__details-icon"/>
+                 <div>
+                 <h4>React Js and React Native</h4>
+                 <small className="text-light">Experienced</small>
+                 </div>
+              </article>
+              <article className="experience__details">
+                 <BsPatchCheckFill className="experience__details-icon"/>
+                 <div>
+                 <h4>Flutter and Dart</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
@@ -56,28 +70,28 @@ function experience() {
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Mongodb</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Firebase</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Express</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>
               <article className="experience__details">
                  <BsPatchCheckFill className="experience__details-icon"/>
                  <div>
-                 <h4>HTML</h4>
+                 <h4>Javascript</h4>
                  <small className="text-light">Experienced</small>
                  </div>
               </article>

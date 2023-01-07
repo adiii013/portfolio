@@ -23,23 +23,24 @@ function About() {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>5 yrs of experience</small>
+              <small>Fresher</small>
             </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Coding problem solved</h5>
+              <small>500+</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
-              <h5>Experience</h5>
-              <small>80+ Completed projects</small>
+              <h5>Projects</h5>
+              <small>5+ Web Projects</small><br/>
+              <small>10+ Android projects</small>
             </article>
           </div>
 
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quos placeat doloremque iste, inventore tempora impedit est officiis, beatae non esse ad, dicta quia magni quisquam eius amet veniam quibusdam?</p>
 
-          <a href="#contact" className="btn btn-primary">Lets Talk</a>
+          <a href="#portfolio" className="btn btn-primary">Projects</a>
 
         </div>
       </div>
