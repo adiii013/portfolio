@@ -92,17 +92,13 @@ header{
 
 @media screen and (max-width:600px){
     header{
-        height:50rem;
-        
+        height:33rem;
     }
     .me{
-        height: 15rem;
-        display: flex;
-        justify-content: center;
+        display: none;
     }
     .me_img{
-        height: 10rem;
-        width: 10rem;
+        display: none;
     }
     .header__socials,.scroll_down{
         display: none;
