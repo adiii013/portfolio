@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin: 2rem auto;
 }
 
 .experience__container > div{
