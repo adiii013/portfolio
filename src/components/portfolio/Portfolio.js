@@ -1,11 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import notesAppMern from '../../assets/notes-app-mern.png'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
 
 function Portfolio() {
   return (
@@ -20,46 +16,6 @@ function Portfolio() {
           <div className="portfolio__item-cta">
           <a href="https://github.com/adiii013/notes-app-mern" className='btn' target='_blank'>Github</a>
           <a href="https://notes-app-p8tx.onrender.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="" className='btn'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="" className='btn'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="" className='btn'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-          <a href="" className='btn'>Github</a>
-          <a href="" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
         <article className='portfolio__item'>
