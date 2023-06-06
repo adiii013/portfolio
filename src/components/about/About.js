@@ -33,15 +33,22 @@ function About() {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projects</h5>
-              <small>5+ Web Projects</small><br/>
+              <small>10+ Web Projects</small><br/>
               <small>10+ Android projects</small>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quos placeat doloremque iste, inventore tempora impedit est officiis, beatae non esse ad, dicta quia magni quisquam eius amet veniam quibusdam?</p>
+          <p>As a skilled software developer with 6 month of experience, I
+specialize in developing high-quality software solutions that are
+customized to meet the unique needs of each project. With
+expertise in Web and Android Field, I am adept at creating efficient
+and user-friendly applications for web and mobile platforms. I am
+dedicated to staying up-to-date with the latest developments in
+the field, and I am committed to delivering projects on time and
+within budget. Let's work together to create the next innovative
+software solution.</p>
 
           <a href="#portfolio" className="btn btn-primary">Projects</a>
-
         </div>
       </div>
     </section>

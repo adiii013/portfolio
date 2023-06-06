@@ -1,70 +1,50 @@
-.experience__container{
+.portfolio__container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin: 2rem auto;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2.5rem;
 }
 
-.experience__container > div{
+.portfolio__item{
     background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
     box-shadow: 10px 0 10px 5px #48abe0;
 }
 
-.experience__container > div:hover{
-    background: transparent;
+.portfolio__item:hover {
     border-color: var(--color-primary-variant);
-    cursor: default;
+    background: transparent;
 }
 
-.experience__container > div h3{
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+.portfolio__item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
 }
 
-.experience__content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+.portfolio__item h3{
+    margin: 1.2rem 0 2rem;
 }
 
-.experience__details{
+.portfolio__item-cta{
     display: flex;
     gap: 1rem;
-}
-
-.experience__details-icon{
-    margin: 6px;
-    color: var(--color-primary);
+    margin-bottom: 1rem;
 }
 
 @media screen and (max-width:1024px){
-    .experience__container{
-        grid-template-columns: 1fr;
-    }
-    .experience__container >div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-    }
-
-    .experience__content{
-        padding: 1rem;
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
     }
 }
 
 @media screen and (max-width:600px){
-    .experience__container{
+    .portfolio__container{
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
-
-    .experience__container >div{
-        width: 100%;
-        padding: 2rem 1rem;
-    }
 }
+
 

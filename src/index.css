@@ -12,11 +12,11 @@
 
 :root {
     --color-bg: #000000;
-    --color-bg-variant:#272755;
+    --color-bg-variant:#e3e3f0;
     --color-primary:#57a4db;
-    --color-primary-variant:rgba(77,181,255,0.4);
+    --color-primary-variant:rgba(101, 190, 253, 0.4);
     --color-white:#fff;
-    --color-light:rgba(255,255,255,0.6);
+    --color-light:rgba(40, 37, 37, 0.6);
 
    --transition: all 400ms ease;
 
@@ -35,8 +35,8 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: #110011;
-    color: var(--color-white);
+    background: whitesmoke;
+    color: var(--color-black);
     line-height: 1.7;
 }
 
