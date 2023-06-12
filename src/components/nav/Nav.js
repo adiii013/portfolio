@@ -10,14 +10,15 @@ import {FaProductHunt} from 'react-icons/fa'
 /* hook */
 
 import {useState} from 'react'
+import { Link } from 'react-router-dom'
 
 function Nav() {
   
-  const[activeNav,setActiveNav] = useState('#')
+  const[activeNav,setActiveNav] = useState('/')
 
   return (
     <nav>
-      <a href="#" onClick={()=>setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome/></a>
+      <Link href="/" onClick={()=>setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}><AiOutlineHome/></Link>
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href="#portfolio" onClick={()=>setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><FaProductHunt/></a>

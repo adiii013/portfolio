@@ -1,0 +1,31 @@
+.checkout__container{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.checkout__subcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.checkout__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+    box-shadow: 10px 0 10px 5px #48abe0;
+}
+
+@media screen and (max-width:600px){
+    .checkout__subcontainer{
+       flex-direction: column;
+       gap: 50px;
+       margin-left:20px;
+       margin-right: 20px;
+    }
+   
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import notesAppMern from '../../assets/notes-app-mern.png'
+import { Link } from 'react-router-dom'
 
 function Portfolio() {
 
@@ -21,7 +22,8 @@ function Portfolio() {
 
   return (
     <section id='portfolio'>
-      <h2>Portfolio</h2>
+      <h2>Projects</h2>
+      <Link to='/projects' className='btn btn-primary' style={{marginLeft:'50%',transform:'translateX(-50%)',marginBottom:"50px"}}>View All</Link>
       <div className="container portfolio__container">
         {
           projects.map((project) => <article className='portfolio__item'>

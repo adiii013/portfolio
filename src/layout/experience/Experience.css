@@ -1,0 +1,22 @@
+.experience__container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.experience__container__list{
+    font-size: 15px;
+}
+
+.experience__card{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: start;
+    transition: var(--transition);
+    box-shadow: 10px 0 10px 5px #48abe0;
+}
+
+.experience__container__btn{
+   vertical-align: baseline;
+}
