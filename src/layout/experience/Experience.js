@@ -1,6 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Experience.css'
-import CV from '../../assets/resume.pdf'
+import EasyOps from '../../assets/EasyOps.pdf'
+import Matlync from '../../assets/Matlync.pdf'
+
 
 function Experience() {
   const experiences = [
@@ -14,6 +16,7 @@ function Experience() {
         {task:"I successfully registered the app on the Google Cloud Platform, enabling its presence on the Google Play Store. This\n      strategic step strengthened its visibility and extended its reach to a broader audience."},
         {task:"Methodically incorporated essential components under the guidance of experienced mentors, adhering closely to their\n recommendations and instructions to ensure optimal functionality and maintain code quality"}
       ],
+      certificate:`${Matlync}`
     },
     {
       company: "EasyOps",
@@ -25,12 +28,13 @@ function Experience() {
         {task:"I fostered effective collaboration within the team, actively leveraging version control tools to streamline our workflow and ensure seamless coordination of efforts."},
         {task:"I leveraged Jira software to proficiently manage tasks, optimizing organization, prioritization, and collaboration. This enriched overall project productivity."}
       ],
+      certificate: `${EasyOps}`
     },
   ]
 
   return (
     <div>
-      <h2>Experience</h2>
+      <h2 className='experience__heading'>Experience</h2>
       <div className="experience__container">
         {
           experiences.map((experience) => <div className='experience__card'>
@@ -43,7 +47,7 @@ function Experience() {
             }
             </ul>
             <div className="experience__container__btn">
-              <a href={CV} download className='btn'>Download Offer Letter</a>
+              <a href={experience.certificate} download className='btn'>Download Offer Letter</a>
             </div>
           </div>)
         }

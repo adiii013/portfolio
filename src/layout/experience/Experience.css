@@ -17,6 +17,22 @@
     box-shadow: 10px 0 10px 5px #48abe0;
 }
 
+.experience__heading{
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
 .experience__container__btn{
    vertical-align: baseline;
+}
+
+@media screen and (max-width:600px){
+   .experience__container{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   .experience__heading{
+    margin-left: 20px;
+    margin-top: 50px;
+   }
 }

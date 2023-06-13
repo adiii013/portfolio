@@ -13,7 +13,7 @@ function Checkout() {
                     <h2>Internships</h2>
                     <article>List of all the internships</article>
                 </div>
-                <div className="checkout__card">
+                <div className="checkout__card" onClick={()=>navigate('/project/web')}>
                     <h2>Web Projects</h2>
                     <article>List of all the web projects</article>
                 </div>
